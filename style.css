@@ -1,0 +1,57 @@
+  /* universal selector */
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  body{
+     display:flex;/* means the conatiner  lies between the center*/
+     justify-content: center;
+     align-items: center;
+     /* Add a background image  */
+     background-image: url(bg.jpg);
+     background-size: 100vw 100vh;
+
+  }  
+  .container{
+    background-color:beige;
+    width:40vw;
+    height:50vh;
+    margin-top: 115px;
+     /* clock ko center me  layenge */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .clock{
+    height: 100%;
+    
+  }
+  .clock1{
+    width: 55vw;
+    background-color: blue;
+  } 
+   .clock2{
+     width:45%;
+     height: 83%;
+    background-color:rgb(0,229,255);
+  }
+
+  /* id  ko # se select krte hai  */
+  #hrs{
+    height:40%;
+    background-color: aqua;
+    text-align: center;
+    /* font size */
+    font-size: 100px;
+
+  } 
+  #mins{
+    height:40%;
+     background-color: aqua;
+      text-align: center;
+  } 
+  #colon{
+    height: 20%;
+     text-align: center;
+  }
