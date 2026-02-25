@@ -9,20 +9,28 @@
      justify-content: center;
      align-items: center;
      /* Add a background image  */
-     background-image: url(bg.jpg);
+     background-image: url(bg2.jpg);
      background-size: 100vw 100vh;
 
   }  
   .container{
     /* background-color:beige; */
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.313);
     width:40vw;
     height:50vh;
     margin-top: 115px;
-     /* clock ko center me  layenge */
+     /* clock ko center me layenge */
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* backdrop-filter is a property that lets you apply visual effects
+     (like blur or color shifts) to the area behind an element — not the element itself. */
+    backdrop-filter: 5px;
+
+/*  container ko thoda box radius  */
+    border-radius: 10px;
+    box-shadow: 0px,0px,20px black;
   }
   .clock{
     height: 100%;
