@@ -26,7 +26,7 @@
 
     /* backdrop-filter is a property that lets you apply visual effects
      (like blur or color shifts) to the area behind an element — not the element itself. */
-    backdrop-filter: 5px;
+    backdrop-filter: blur(5px);
 
 /*  container ko thoda box radius  */
     border-radius: 10px;
@@ -34,7 +34,9 @@
   }
   .clock{
     height: 100%;
-    
+    color:rgba(18, 51, 219, 0.466);
+    -webkit-text-stroke: 1px rgba(238, 234,241);
+    text-shadow: 1px 1px 50px rgb(147,15,15),3px 3px 3px black;
   }
   .clock1{
     width: 55vw;
@@ -61,6 +63,7 @@
      /* background-color: aqua; */
       text-align: center;
       font-size: 100px;
+      color:rgb(123,12,192);
   } 
   #colon{
     height:20%;
@@ -82,6 +85,7 @@
     height:10%;
     font-size: 30px;
     margin-top:-20px;
+    color: rgb(127,6,59);
 
   }
       #year{
@@ -92,12 +96,14 @@
     font-size: 45px;
     /* margin-bottom: 10px; */
     margin-top:5px;
+    color: ;
   }
     
   #day{
     height:20%;
     font-size:40px;
     margin-top:-10px;
+    color: rgb(10,132,10);
   }
   #am-pm{
     height:20%;
@@ -108,4 +114,5 @@
     height:30%;
     font-size: 50px;
     margin-top: 0px; 
+    color: rgba(220, 21, 21, 0.858);
    }  
